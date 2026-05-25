@@ -1,5 +1,5 @@
 # 🎬 BingeWatch - Release 1.0
-> 📱 **[DESCARGAR APK INSTALABLE (v1.0)](https://github.com/Silviamg9/BingeWatch/releases/download/v1.0/app-debug.apk)**
+> 📱 **[DESCARGAR APK INSTALABLE (v1.0)](https://github.com/Silviamg9/BingeWatch/releases/download/v1.0/bingeWatch_v1.0.0.apk)**
 
 [![Versión](https://img.shields.io/badge/VERSIÓN-1.0_RELEASE-00E676?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Silviamg9/BingeWatch)
 [![Platform](https://img.shields.io/badge/ANDROID-KOTLIN%20%2F%20JAVA-00E676?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Silviamg9/BingeWatch)

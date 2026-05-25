@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BingeWatch</string>
+
+    <string-array name="estados_seguimiento">
+        <item></item>
+        <item>Sin Comenzar</item>
+        <item>Viendo</item>
+        <item>Terminada</item>
+        <item>Abandonada</item>
+    </string-array>
+
+    <string name="login_app_title">BINGE WATCH</string>
+    <string name="login_app_subtitle">Tu agenda de series y películas</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login_text">INICIAR SESIÓN</string>
+    <string name="btn_go_to_register">¿NO TIENES CUENTA? REGÍSTRATE</string>
+    <string name="register_title">NUEVA CUENTA</string>
+    <string name="register_subtitle">Únete a la comunidad Binge Watch</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="btn_register_text">CREAR CUENTA</string>
+    <string name="title_explore">Explorar Contenido</string>
+    <string name="hint_search_bar">Busca series o películas...</string>
+    <string name="desc_btn_search">Buscar</string>
+    <string name="tab_pendiente">SIN COMENZAR</string>
+    <string name="tab_viendo">VIENDO</string>
+    <string name="tab_terminada">TERMINADA</string>
+    <string name="tab_abandonada">ABANDONADA</string>
+    <string name="txt_sin_contenido">No hay nada en esta sección</string>
+    <string name="tab_detail_info">INFORMACIÓN</string>
+    <string name="tab_detail_episodes">EPISODIOS</string>
+    <string name="btn_guardar">AÑADIR A MI LISTA</string>
+    <string name="btn_eliminar">ELIMINAR DE MI LISTA</string>
+    <string name="lbl_my_status">Mi estado:</string>
+    <string name="lbl_available_on">Disponible en</string>
+    <string name="lbl_synopsis">Sinopsis</string>
+    <string name="lbl_official_trailer">Tráiler oficial</string>
+    <string name="lbl_all_seasons">Todas las temporadas</string>
+    <string name="lbl_my_profile_title">MI PERFIL</string>
+    <string name="lbl_loading_user">Cargando...</string>
+    <string name="btn_go_premium_text">Pasarse a Premium 🔒</string>
+    <string name="lbl_stats_title">Tus estadísticas</string>
+    <string name="stat_movies_label">Películas</string>
+    <string name="stat_series_label">Series</string>
+    <string name="stat_episodes_label">Episodios</string>
+    <string name="btn_logout_text">CERRAR SESIÓN</string>
+    <string name="default_season_title">Temporada 1</string>
+    <string name="default_episode_placeholder">E1 - Título</string>
+    <string name="default_episode_synopsis">Sinopsis del episodio...</string>
+    <string name="default_item_type_label">Serie</string>
+    <string name="menu_nav_series">Series</string>
+    <string name="menu_nav_movies">Películas</string>
+    <string name="menu_nav_explore">Explorar</string>
+    <string name="menu_nav_upcoming">Estrenos</string>
+    <string name="menu_nav_profile">Perfil</string>
+    <string name="dialog_premium_title">Contratar BingeWatch PRO</string>
+    <string name="dialog_premium_message">¿Deseas simular la pasarela de pago para desbloquear las funciones VIP y el distintivo PRO?</string>
+    <string name="dialog_premium_accept">Aceptar Pago</string>
+    <string name="dialog_premium_cancel">Cancelar</string>
+    <string name="badge_pro_text">✨ (PRO)</string>
+</resources>

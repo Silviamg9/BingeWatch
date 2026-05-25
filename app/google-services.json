@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460598772846",
+    "project_id": "bingewatch-76938",
+    "storage_bucket": "bingewatch-76938.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460598772846:android:72f8a53f7e0a40ba5e127f",
+        "android_client_info": {
+          "package_name": "com.example.bingewatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp3ixKQk_qWGZt3aRHJgtfH4y-K7A_IOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,10 +8,10 @@ Este documento certifica la validación de las funcionalidades principales de la
 
 | ID | Acción | Entrada | Resultado Esperado | Resultado Real |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-01** | Registro de usuario | Nombre, Email válido, Pass | Creación de cuenta en Firebase Auth y asignación de Rol básico. | **Correcto** |
-| **TC-02** | Login por roles (Premium) | Credenciales de Usuario PRO | Redirección inmediata a `MainActivity` con flag de interfaz VIP activo. | **Correcto** |
-| **TC-03** | Blindaje de contraseña | "123" | Firebase Auth debe rechazar la transacción por longitud insuficiente (< 6 caracteres). | **Correcto** |
-| **TC-04** | Cerrar sesión | Botón Logout | Purga del token de sesión local y vuelta automática a `LoginActivity`. | **Correcto** |
+| **01** | Registro de usuario | Nombre, Email válido, Pass | Creación de cuenta en Firebase Auth y asignación de Rol básico. | **Correcto** |
+| **02** | Login por roles (Premium) | Credenciales de Usuario PRO | Redirección inmediata a `MainActivity` con flag de interfaz VIP activo. | **Correcto** |
+| **03** | Blindaje de contraseña | "123" | Firebase Auth debe rechazar la transacción por longitud insuficiente (< 6 caracteres). | **Correcto** |
+| **04** | Cerrar sesión | Botón Logout | Purga del token de sesión local y vuelta automática a `LoginActivity`. | **Correcto** |
 
 ---
 
@@ -19,9 +19,9 @@ Este documento certifica la validación de las funcionalidades principales de la
 
 | ID | Acción | Entrada | Resultado Esperado | Resultado Real |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-05** | Cambio de estado de visualización | Selección "Viendo" en Spinner | Persistencia inmediata en Cloud Firestore actualizando el nodo del usuario. | **Correcto** |
-| **TC-06** | Ingesta de posters | API Remota -> Glide | Las carátulas deben renderizarse de forma asíncrona y guardarse en caché. | **Correcto** |
-| **TC-07** | Contador de progreso | CheckBox de episodio marcado | El sistema calcula dinámicamente el porcentaje de la temporada (`completados / totales`). | **Correcto** |
+| **05** | Cambio de estado de visualización | Selección "Viendo" en Spinner | Persistencia inmediata en Cloud Firestore actualizando el nodo del usuario. | **Correcto** |
+| **06** | Ingesta de posters | API Remota -> Glide | Las carátulas deben renderizarse de forma asíncrona y guardarse en caché. | **Correcto** |
+| **07** | Contador de progreso | CheckBox de episodio marcado | El sistema calcula dinámicamente el porcentaje de la temporada (`completados / totales`). | **Correcto** |
 
 ---
 
@@ -29,9 +29,9 @@ Este documento certifica la validación de las funcionalidades principales de la
 
 | ID | Acción | Entrada | Resultado Esperado | Resultado Real |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-08** | Simulación de Pago PRO | Clic en "Suscribirse" (Formulario) | Modificación del atributo `isPremium` a `true` en el documento del usuario. | **Correcto** |
-| **TC-09** | Actualización dinámica UI | Evento post-pago | Aparición instantánea del Badge estelar dorado **(PRO)** en el Perfil. | **Correcto** |
-| **TC-10** | Filtro idiomático internacional | Cambio de idioma del sistema | Traducción en caliente de todos los textos mediante mapeo de `strings.xml`. | **Correcto** |
+| **08** | Simulación de Pago PRO | Clic en "Suscribirse" (Formulario) | Modificación del atributo `isPremium` a `true` en el documento del usuario. | **Correcto** |
+| **09** | Actualización dinámica UI | Evento post-pago | Aparición instantánea del Badge estelar dorado **(PRO)** en el Perfil. | **Correcto** |
+| **10** | Filtro idiomático internacional | Cambio de idioma del sistema | Traducción en caliente de todos los textos mediante mapeo de `strings.xml`. | **Correcto** |
 
 ---
 

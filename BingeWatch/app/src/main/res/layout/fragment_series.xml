@@ -35,22 +35,22 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SIN COMENZAR"/>
+                android:text="@string/tab_pendiente" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="VIENDO"/>
+                android:text="@string/tab_viendo" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TERMINADA"/>
+                android:text="@string/tab_terminada" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ABANDONADA"/>
+                android:text="@string/tab_abandonada" />
 
         </com.google.android.material.tabs.TabLayout>
 

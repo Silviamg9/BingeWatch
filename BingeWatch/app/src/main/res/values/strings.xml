@@ -45,6 +45,7 @@
     <string name="stat_episodes_label">Episodios</string>
     <string name="btn_logout_text">CERRAR SESIÓN</string>
     <string name="default_season_title">Temporada 1</string>
+    <string name="season_number_format">Temporada %d</string>
     <string name="default_episode_placeholder">E1 - Título</string>
     <string name="default_episode_synopsis">Sinopsis del episodio...</string>
     <string name="default_item_type_label">Serie</string>
@@ -53,9 +54,37 @@
     <string name="menu_nav_explore">Explorar</string>
     <string name="menu_nav_upcoming">Estrenos</string>
     <string name="menu_nav_profile">Perfil</string>
-    <string name="dialog_premium_title">Contratar BingeWatch PRO</string>
-    <string name="dialog_premium_message">¿Deseas simular la pasarela de pago para desbloquear las funciones VIP y el distintivo PRO?</string>
-    <string name="dialog_premium_accept">Aceptar Pago</string>
+    <string name="dialog_premium_title">Contratar Binge Watch PRO</string>
+    <string name="dialog_premium_message">Por solo 1,49€ al mes desbloqueas funciones exclusivas, eliminas la publicidad y apoyas el desarrollo de la app.</string>
+    <string name="dialog_premium_accept">Aceptar</string>
     <string name="dialog_premium_cancel">Cancelar</string>
     <string name="badge_pro_text">✨ (PRO)</string>
+    <string name="btn_premium_active">Cuenta Premium Activa ✨</string>
+    <string name="user_bingewatch_placeholder">Usuario Binge Watch</string>
+    <string name="user_generic">Usuario</string>
+    <string name="mens_premium_title">Desbloquear Binge Watch Premium</string>
+    <string name="toast_premium_success">¡Gracias por tu compra! Cuenta actualizada a PRO ✨</string>
+    <string name="dialog_avatar_title">Cambiar foto de perfil</string>
+    <string name="toast_avatar_updated">Foto de perfil actualizada</string>
+    <string name="toast_logout_success">Sesión cerrada</string>
+
+    <string-array name="avatar_options">
+        <item>Hacer foto con cámara</item>
+        <item>Elegir de la galería</item>
+        <item>Cancelar</item>
+    </string-array>
+
+    <string name="btn_already_saved">EN MI LISTA</string>
+    <string name="toast_error_id_unavailable">Error: ID de serie no disponible</string>
+    <string name="estreno_serie">SERIES</string>
+    <string name="estreno_movies">PELÍCULAS</string>
+    <string name="toast_no_upcoming_found">No se encontraron estrenos</string>
+    <string name="toast_error_network_upcoming">Error al cargar estrenos desde la red</string>
+    <string name="toast_network_error">Error de red</string>
+    <string name="toast_error_empty_fields">Por favor, rellena todos los campos</string>
+    <string name="toast_error_register_fields">Completa todos los campos</string>
+    <string name="toast_error_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="toast_register_success">¡Cuenta creada con éxito!</string>
+    <string name="toast_error_save_profile">Error al guardar perfil: %s</string>
+
 </resources>

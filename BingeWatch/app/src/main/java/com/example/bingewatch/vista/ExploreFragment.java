@@ -70,7 +70,7 @@ public class ExploreFragment extends Fragment {
 
                     @Override
                     public void onFailure(Call<List<Contenido>> call, Throwable t) {
-                        Toast.makeText(getContext(), "Error de red", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), getString(R.string.toast_network_error), Toast.LENGTH_SHORT).show();
                     }
                 });
     }

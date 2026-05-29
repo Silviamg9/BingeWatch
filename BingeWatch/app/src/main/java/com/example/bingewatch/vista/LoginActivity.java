@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         String contraseña = etContraseña.getText().toString().trim();
 
         if (email.isEmpty() || contraseña.isEmpty()) {
-            Toast.makeText(this, "Por favor, rellena todos los campos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_error_empty_fields), Toast.LENGTH_SHORT).show();
             return;
         }
 

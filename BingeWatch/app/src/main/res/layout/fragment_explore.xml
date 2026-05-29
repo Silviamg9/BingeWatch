@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explorar Contenido"
+        android:text="@string/title_explore"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -36,7 +36,7 @@
                 android:id="@+id/etBuscar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Busca series o películas..."
+                android:hint="@string/hint_search_bar"
                 android:textColor="@android:color/white"
                 android:textColorHint="#888888"
                 android:background="@android:color/transparent"
@@ -53,7 +53,7 @@
             android:src="@android:drawable/ic_menu_search"
             android:background="?attr/selectableItemBackgroundBorderless"
             app:tint="@android:color/white"
-            android:contentDescription="Buscar" />
+            android:contentDescription="@string/desc_btn_search" />
 
     </LinearLayout>
 

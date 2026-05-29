@@ -139,8 +139,9 @@ public class DetalleActivity extends AppCompatActivity {
                 }
 
                 String nuevoEstado = parent.getItemAtPosition(posicion).toString();
+                // Comprobamos si el botón está desactivado (lo que significa que ya está guardado)
                 // Solo se actualiza si el botón ya dice que está en la lista
-                if (btnAccion.getText().toString().equalsIgnoreCase("EN MI LISTA")) {
+                if (!btnAccion.isEnabled() || btnAccion.getText().toString().equalsIgnoreCase(getString(R.string.btn_already_saved))) {
                     actualizarEstadoEnFirebase(contenido.id, nuevoEstado);
                 }
             }
@@ -173,7 +174,7 @@ public class DetalleActivity extends AppCompatActivity {
     }
 
     private void marcarBotonComoGuardado() {
-        btnAccion.setText("EN MI LISTA");
+        btnAccion.setText(getString(R.string.btn_already_saved));
         btnAccion.setEnabled(false);
         btnAccion.setBackgroundTintList(ContextCompat.getColorStateList(this, android.R.color.darker_gray));
     }
@@ -260,7 +261,7 @@ public class DetalleActivity extends AppCompatActivity {
         if (contenidoSeleccionado != null && contenidoSeleccionado.id != null) {
             rvTemporadas.setAdapter(new TemporadaAdapter(listaFinal, contenidoSeleccionado.id));
         } else {
-            Toast.makeText(this, "Error: ID de serie no disponible", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_error_id_unavailable), Toast.LENGTH_SHORT).show();
         }
     }
 

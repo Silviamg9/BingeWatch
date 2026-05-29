@@ -45,6 +45,7 @@
     <string name="stat_episodes_label">Episodes</string>
     <string name="btn_logout_text">LOG OUT</string>
     <string name="default_season_title">Season 1</string>
+    <string name="season_number_format">Season %d</string>
     <string name="default_episode_placeholder">E1 - Title</string>
     <string name="default_episode_synopsis">Episode synopsis...</string>
     <string name="default_item_type_label">Series</string>
@@ -55,7 +56,35 @@
     <string name="menu_nav_profile">Profile</string>
     <string name="dialog_premium_title">Get BingeWatch PRO</string>
     <string name="dialog_premium_message">Do you want to simulate the payment gateway to unlock VIP features and the PRO badge?</string>
-    <string name="dialog_premium_accept">Accept Payment</string>
+    <string name="dialog_premium_accept">Accept</string>
     <string name="dialog_premium_cancel">Cancel</string>
     <string name="badge_pro_text">✨ (PRO)</string>
+    <string name="btn_premium_active">Premium Account Active ✨</string>
+    <string name="user_bingewatch_placeholder">Binge Watch User</string>
+    <string name="user_generic">User</string>
+    <string name="mens_premium_title">Unlock Binge Watch Premium</string>
+    <string name="toast_premium_success">Thank you for your purchase! Account upgraded to PRO ✨</string>
+    <string name="dialog_avatar_title">Change profile picture</string>
+    <string name="toast_avatar_updated">Profile picture updated</string>
+    <string name="toast_logout_success">Logged out successfully</string>
+
+    <string-array name="avatar_options">
+        <item>Take photo with camera</item>
+        <item>Choose from gallery</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="btn_already_saved">IN MY LIST</string>
+    <string name="toast_error_id_unavailable">Error: Series ID not available</string>
+    <string name="estreno_serie">SERIES</string>
+    <string name="estreno_movies">MOVIES</string>
+    <string name="toast_no_upcoming_found">No upcoming releases found</string>
+    <string name="toast_error_network_upcoming">Error loading upcoming releases from network</string>
+    <string name="toast_network_error">Network error</string>
+    <string name="toast_error_empty_fields">Please, fill in all fields</string>
+    <string name="toast_error_register_fields">Please complete all fields</string>
+    <string name="toast_error_password_short">The password must be at least 6 characters long</string>
+    <string name="toast_register_success">Account created successfully!</string>
+    <string name="toast_error_save_profile">Error saving profile: %s</string>
+
 </resources>

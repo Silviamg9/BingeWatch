@@ -1,5 +1,6 @@
 package com.example.bingewatch.adaptador;
 
+import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,7 +36,8 @@ public class TemporadaAdapter extends RecyclerView.Adapter<TemporadaAdapter.View
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Temporada temporadaActual = listaTemporadas.get(position);
 
-        holder.tvNombreTemp.setText("Temporada " + temporadaActual.getNumero());
+        Context contexto = holder.itemView.getContext();
+        holder.tvNombreTemp.setText(contexto.getString(R.string.season_number_format, temporadaActual.getNumero()));
 
         // 1. Configuramos el adaptador de episodios
         List<Episodio> episodiosDeEstaTemp = temporadaActual.getEpisodios();
@@ -54,12 +56,11 @@ public class TemporadaAdapter extends RecyclerView.Adapter<TemporadaAdapter.View
             if (holder.rvEpisodios.getVisibility() == View.GONE) {
                 holder.rvEpisodios.setVisibility(View.VISIBLE);
                 holder.ivFlecha.setRotation(180f);
-                Log.d("DESPLIEGUE", "Abriendo Temporada " + temporadaActual.getNumero());
+                Log.d("DESPLIEGUE", String.format("Abriendo Temporada %d", temporadaActual.getNumero()));
             } else {
                 holder.rvEpisodios.setVisibility(View.GONE);
                 holder.ivFlecha.setRotation(0f);
-                Log.d("DESPLIEGUE", "Cerrando Temporada " + temporadaActual.getNumero());
-            }
+                Log.d("DESPLIEGUE", String.format("Cerrando Temporada %d", temporadaActual.getNumero()));            }
         });
     }
 

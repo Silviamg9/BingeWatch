@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
             android:letterSpacing="0.05"
-            android:text="BINGE WATCH"
+            android:text="@string/login_app_title"
             android:textColor="@color/azul_binge"
             android:textSize="40sp" />
 
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
-            android:text="Tu agenda de series y películas"
+            android:text="@string/login_app_subtitle"
             android:textColor="#D1D5DB"
             android:textSize="14sp" />
 
@@ -56,7 +56,7 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Correo Electrónico"
+                    android:hint="@string/hint_email"
                     android:textColorHint="#94A3B8"
                     app:boxStrokeColor="@color/azul_binge"
                     app:hintTextColor="@color/azul_binge"
@@ -75,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:hint="Contraseña"
+                    android:hint="@string/hint_password"
                     android:textColorHint="#94A3B8"
                     app:boxStrokeColor="@color/azul_binge"
                     app:hintTextColor="@color/azul_binge"
@@ -98,7 +98,7 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="32dp"
                     android:backgroundTint="@color/morado_boton"
-                    android:text="INICIAR SESIÓN"
+                    android:text="@string/btn_login_text"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:cornerRadius="16dp" />
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="¿NO TIENES CUENTA? REGÍSTRATE"
+            android:text="@string/btn_go_to_register"
             android:textColor="@color/azul_binge"
             android:textSize="12sp" />
 

@@ -50,12 +50,12 @@ public class RegistroActivity extends AppCompatActivity {
         String contraseña = etContraseña.getText().toString().trim();
 
         if (nombreUsuario.isEmpty() || email.isEmpty() || contraseña.isEmpty()) {
-            Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_error_register_fields), Toast.LENGTH_SHORT).show();
             return;
         }
 
         if (contraseña.length() < 6) {
-            Toast.makeText(this, "La contraseña debe tener al menos 6 caracteres", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_error_password_short), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -82,7 +82,7 @@ public class RegistroActivity extends AppCompatActivity {
 
         referenciaBaseDatos.child("usuarios").child(idUsuario).setValue(datosUsuario)
                 .addOnSuccessListener(aVoid -> {
-                    Toast.makeText(RegistroActivity.this, "¡Cuenta creada con éxito!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegistroActivity.this, getString(R.string.toast_register_success), Toast.LENGTH_SHORT).show();
 
                     Intent irAlLogin = new Intent(RegistroActivity.this, LoginActivity.class);
                     startActivity(irAlLogin);
@@ -91,7 +91,7 @@ public class RegistroActivity extends AppCompatActivity {
 
 
                 .addOnFailureListener(e -> {
-                    Toast.makeText(RegistroActivity.this, "Error al guardar perfil: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegistroActivity.this, getString(R.string.toast_error_save_profile, e.getMessage()), Toast.LENGTH_SHORT).show();
                 });
     }
 }

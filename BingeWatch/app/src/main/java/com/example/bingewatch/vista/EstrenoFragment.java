@@ -40,8 +40,8 @@ public class EstrenoFragment extends Fragment{
 
         pestañasFiltro = view.findViewById(R.id.pestañaSeries);
         pestañasFiltro.removeAllTabs();
-        pestañasFiltro.addTab(pestañasFiltro.newTab().setText("SERIES"));
-        pestañasFiltro.addTab(pestañasFiltro.newTab().setText("PELÍCULAS"));
+        pestañasFiltro.addTab(pestañasFiltro.newTab().setText(getString(R.string.estreno_serie).toUpperCase()));
+        pestañasFiltro.addTab(pestañasFiltro.newTab().setText(getString(R.string.estreno_movies).toUpperCase()));
 
         // Centrar los textos
         pestañasFiltro.setTabMode(TabLayout.MODE_FIXED);
@@ -81,14 +81,13 @@ public class EstrenoFragment extends Fragment{
                             listaCompletaApi.addAll(respuestaServidor.body());
                             aplicarFiltroLocal();
                         } else {
-                            Toast.makeText(getContext(), "No se encontraron estrenos", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getContext(), getString(R.string.toast_no_upcoming_found), Toast.LENGTH_SHORT).show();
                         }
                     }
 
                     @Override
                     public void onFailure(Call<List<Contenido>> call, Throwable t) {
-                        Toast.makeText(getContext(), "Error al cargar estrenos desde la red", Toast.LENGTH_SHORT).show();
-                    }
+                        Toast.makeText(getContext(), getString(R.string.toast_error_network_upcoming), Toast.LENGTH_SHORT).show();                    }
                 });
     }
 

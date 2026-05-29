@@ -81,7 +81,7 @@ public class PerfilFragment extends Fragment{
         btnCerrarSesion.setOnClickListener(v -> {
             Sonido.reproducirClic();
             autenticadorFirebase.signOut();
-            Toast.makeText(getActivity(), "Sesión cerrada", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), getString(R.string.toast_logout_success), Toast.LENGTH_SHORT).show();
             Intent intentoNavegacion = new Intent(getActivity(), LoginActivity.class);
             intentoNavegacion.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intentoNavegacion);
@@ -108,7 +108,7 @@ public class PerfilFragment extends Fragment{
                             if (nombreDetectado != null && !nombreDetectado.trim().isEmpty()) {
                                 tvNombreUsuario.setText(nombreDetectado);
                             } else {
-                                tvNombreUsuario.setText("Usuario BingeWatch");
+                                tvNombreUsuario.setText("Usuario Binge Watch");
                             }
 
                             boolean esPremium = false;
@@ -119,12 +119,12 @@ public class PerfilFragment extends Fragment{
                             if (esPremium) {
                                 tvNombreUsuario.setText(tvNombreUsuario.getText() + " ✨ (PRO)");
                                 if (btnModoPremium != null) {
-                                    btnModoPremium.setText("Cuenta Premium Activa");
+                                    btnModoPremium.setText(getString(R.string.btn_premium_active));
                                     btnModoPremium.setEnabled(false);
                                 }
                             } else {
                                 if (btnModoPremium != null) {
-                                    btnModoPremium.setText("Pasarse a Premium 🔒");
+                                    btnModoPremium.setText(getContext().getString(R.string.btn_go_premium_text));
                                     btnModoPremium.setOnClickListener(v -> {
                                         Sonido.reproducirClic();
                                         mostrarDialogoHacersePremium(uidUsuario);
@@ -132,34 +132,36 @@ public class PerfilFragment extends Fragment{
                                 }
                             }
                         } else {
-                            tvNombreUsuario.setText("Usuario BingeWatch");
+                            tvNombreUsuario.setText(getContext().getString(R.string.user_bingewatch_placeholder));
                         }
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        tvNombreUsuario.setText("Usuario");
+                        tvNombreUsuario.setText(getContext().getString(R.string.user_generic));
                     }
                 });
     }
 
     private void mostrarDialogoHacersePremium(String uidUsuario) {
         AlertDialog.Builder constructorDialogo = new AlertDialog.Builder(requireContext());
-        constructorDialogo.setTitle("Desbloquear Binge Watch Premium");
-        constructorDialogo.setMessage("Por solo 1,49€ al mes desbloqueas funciones exclusivas, eliminas la publicidad y apoyas el desarrollo de la app.");
+        constructorDialogo.setTitle(getString(R.string.mens_premium_title));
+        constructorDialogo.setMessage(getString(R.string.dialog_premium_message));
 
-        constructorDialogo.setPositiveButton("Aceptar", (dialogo, posicion) -> {
+        constructorDialogo.setPositiveButton(getString(R.string.dialog_premium_accept), (dialogo, posicion) -> {
             FirebaseDatabase.getInstance(DB_URL)
                     .getReference("usuarios")
                     .child(uidUsuario)
                     .child("esPremium")
                     .setValue(true)
                     .addOnSuccessListener(aVoid -> {
-                        Toast.makeText(getContext(), "¡Gracias por tu compra! Cuenta actualizada a PRO ✨", Toast.LENGTH_LONG).show();
+                        if (getContext() != null) {
+                            Toast.makeText(getContext(), getString(R.string.toast_premium_success), Toast.LENGTH_LONG).show();
+                        }
                     });
         });
 
-        constructorDialogo.setNegativeButton("Cancelar", (dialogo, posicion) -> dialogo.dismiss());
+        constructorDialogo.setNegativeButton(getString(R.string.dialog_premium_cancel), (dialogo, posicion) -> dialogo.dismiss());
         constructorDialogo.show();
     }
 
@@ -196,7 +198,7 @@ public class PerfilFragment extends Fragment{
                                 guardarFotoPerfilLocal(mapaBitsSeleccionado);
 
                                 // 4. Notificamos al usuario de que se ha procesado con éxito
-                                Toast.makeText(getContext(), "Foto de perfil actualizada", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getContext(), getString(R.string.toast_avatar_updated), Toast.LENGTH_SHORT).show();
                             }
                         } catch (Exception e) {
                             recuperarFotoPerfilLocal();
@@ -209,9 +211,10 @@ public class PerfilFragment extends Fragment{
     }
 
     private void mostrarOpcionesSelector() {
-        String[] opciones = {"Hacer foto con cámara", "Elegir de la galería", "Cancelar"};
+        String[] opciones = getResources().getStringArray(R.array.avatar_options);
         AlertDialog.Builder constructorDialogo = new AlertDialog.Builder(requireContext());
-        constructorDialogo.setTitle("Cambiar foto de perfil");
+
+        constructorDialogo.setTitle(getString(R.string.dialog_avatar_title));
         constructorDialogo.setItems(opciones, (dialogo, posicion) -> {
             if (posicion == 0) {
                 Intent intentoCamara = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

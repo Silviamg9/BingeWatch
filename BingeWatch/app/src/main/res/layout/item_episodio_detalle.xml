@@ -18,7 +18,7 @@
             android:id="@+id/tvEpisodioNumeroTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="E1 - Título"
+            android:text="@string/default_episode_placeholder"
             android:textColor="@android:color/white"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -27,7 +27,7 @@
             android:id="@+id/tvEpisodioSinopsis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sinopsis del episodio..."
+            android:text="@string/default_episode_synopsis"
             android:textColor="#BBBBBB"
             android:textSize="14sp"
             android:layout_marginTop="4dp"

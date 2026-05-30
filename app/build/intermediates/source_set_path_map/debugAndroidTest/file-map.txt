@@ -1,6 +1,0 @@
-com.example.bingewatch.test.app-jetified-core-1.5.0-0 C:\Users\silvi\.gradle\caches\transforms-3\555b84f0cbbd575e6cffb4da02b7ed57\transformed\jetified-core-1.5.0\res
-com.example.bingewatch.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\silvi\.gradle\caches\transforms-3\f0e2af1d99fdb1876d8691c815a8c395\transformed\jetified-annotation-experimental-1.3.0\res
-com.example.bingewatch.test.app-androidTest-2 C:\Users\silvi\AndroidStudioProjects\BingeWatch\app\build\generated\res\resValues\androidTest\debug
-com.example.bingewatch.test.app-mergeDebugAndroidTestResources-3 C:\Users\silvi\AndroidStudioProjects\BingeWatch\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.bingewatch.test.app-mergeDebugAndroidTestResources-4 C:\Users\silvi\AndroidStudioProjects\BingeWatch\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.bingewatch.test.app-merged_res-5 C:\Users\silvi\AndroidStudioProjects\BingeWatch\app\build\intermediates\merged_res\debugAndroidTest

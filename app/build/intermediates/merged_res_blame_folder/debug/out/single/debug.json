@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_disney.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_disney.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_item_temporada.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/item_temporada.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_movistar.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_movistar.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_item_temporada.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\item_temporada.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_orange.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_orange.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_fragment_perfil.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_netflix.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_netflix.png"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/menu_btn_nav_menu.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/menu/btn_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\menu_btn_nav_menu.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\menu\\btn_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_activity_detalle.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/activity_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_activity_registro.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_fading_negro_arriba.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\fading_negro_arriba.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_fondo.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_item_serie.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\item_serie.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_activity_detalle.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\activity_detalle.xml"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_fragment_series.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/fragment_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\color_nav_item_color.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_hbo.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_hbo.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\activity_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_bg_search_rounded.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\bg_search_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_fragment_movies.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/fragment_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\menu_menu_filtro_series.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\menu\\menu_filtro_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_amazon.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_amazon.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_item_episodio_detalle.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\item_episodio_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_fondo_gradient.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\fondo_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_bingewatch.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_bingewatch.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-pngs-33:\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_fragment_explore.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\fragment_explore.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_fragment_series.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\fragment_series.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_fragment_explore.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_fondo_main.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\fondo_main.png"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_item_episodio_detalle.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/item_episodio_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_item_spinner_blanco.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\item_spinner_blanco.xml"
+    },
+    {
+        "merged": "com.example.bingewatch.app-merged_res-38:/layout_activity_login.xml.flat",
+        "source": "com.example.bingewatch.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\layout_fragment_movies.xml.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\layout\\fragment_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-merged_res-38:\\drawable_logo_atresplayer.png.flat",
+        "source": "C:\\Users\\silvi\\.gradle\\daemon\\8.5\\com.example.bingewatch.app-main-40:\\drawable\\logo_atresplayer.png"
+    }
+]
